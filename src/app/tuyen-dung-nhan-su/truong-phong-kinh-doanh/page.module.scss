@@ -1,0 +1,19 @@
+.form_cmt {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    h1 {
+        color: #159AFD;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 2.5rem;
+        display: block;
+        margin: 1rem 0;
+    }
+    p{
+        font-family: 'Roboto', sans-serif !important;
+    }
+}

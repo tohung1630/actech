@@ -1,0 +1,150 @@
+.site_main{
+    max-width: 1140px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    width: 100%;
+}
+.entry_title{
+    color: #159AFD;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 2.5rem;
+}
+.page_content{
+    h2{
+        text-align: justify;
+        color: #159AFD;
+        font-weight: 300;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 2rem;
+        span{
+            font-size: 14pt;
+        }
+    }
+    p{
+        text-align: justify;
+        font-family: 'Roboto', sans-serif !important;
+        margin-block-start: 0;
+        margin-block-end: .9rem;
+        img{
+            clear: both;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-style: none;
+            height: auto;
+            max-width: 100%;
+            vertical-align: middle;
+            width: 658px;
+            aspect-ratio: auto 658 / 447;
+            overflow-clip-margin: content-box;
+            overflow: clip;
+        }
+        span{
+            font-weight: 400;
+            font-family: 'Roboto', sans-serif !important;
+            text-align: justify;
+            line-height: 1.5;
+            color: #333;
+            font-size: 1rem;
+            -webkit-font-smoothing: antialiased;
+        }
+    }
+    h3{
+        text-align: justify;
+        color: #159AFD;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 1.75rem;
+    }
+    ul{
+        text-align: justify;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        box-sizing: border-box;
+        li{
+            font-weight: 400;
+            margin-block-start: 0;
+            margin-block-end: 0;
+            border: 0;
+            outline: 0;
+            font-size: 100%;
+            vertical-align: baseline;
+            background: transparent;
+            font-family: 'Roboto', sans-serif !important;
+            text-align: justify;
+            line-height: 1.5;
+            color: #333;
+            font-size: 1rem;
+            -webkit-font-smoothing: antialiased;
+        }
+        li::marker {
+            unicode-bidi: isolate;
+            font-variant-numeric: tabular-nums;
+            text-transform: none;
+            text-indent: 0px !important;
+            text-align: start !important;
+            text-align-last: start !important;
+        }
+    }
+    .comment_reply_title{
+        color: #159AFD;
+        font-weight:300;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 2rem;
+    }
+    .textarea{
+        overflow: auto;
+        resize: vertical;
+        width: 100%;
+        border: 1px solid #666;
+        border-radius: 3px;
+        padding: .5rem 1rem;
+        transition: all .3s;
+        font-family: inherit;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+    }
+    .input{
+        width: 100%;
+        border: 1px solid #666;
+        border-radius: 3px;
+        padding: .5rem 1rem;
+        transition: all .3s;
+        font-family: inherit;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        overflow: visible;
+    }
+    .submit{
+        display: inline-block;
+        font-weight: 400;
+        color: #c36;
+        text-align: center;
+        white-space: nowrap;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid #c36;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border-radius: 3px;
+        transition: all .3s;
+    }
+    .submit:hover{
+        color: #fff;
+        background-color: #c36;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .site_main{
+        padding: 1rem;
+    }
+}

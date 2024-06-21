@@ -1,0 +1,445 @@
+.layout {
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    height: 87px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+
+.elementor_top_column {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    display: flex;
+}
+
+.elementor_element_populated {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.elementor_element {
+    width: 100%;
+}
+
+.elementor_column_gap_default {
+    max-width: 1400px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.div_logo {
+    img {
+        height: 70px;
+    }
+}
+
+.menu_header {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.menu_nav {
+    .menu_ul {
+        list-style-type: none;
+
+        .menu_li {
+            display: inline;
+            margin: 1.5rem;
+            font-weight: 500;
+            line-height: 15px;
+            letter-spacing: -0.5px;
+            word-spacing: 0px;
+            padding: 1rem 0;
+            float: left;
+        }
+
+        .menu_li:hover {
+            border-bottom: 5px solid #C00000;
+        }
+    }
+}
+
+.menu_ul_mini {
+    position: absolute;
+    list-style-type: none;
+    background-color: white;
+    top: 75px;
+    display: none;
+
+    li {
+        padding: 1rem 1.5rem;
+
+    }
+
+    li:hover {
+        background-color: #7A7A7A;
+        color: white;
+    }
+}
+
+.menu_li:hover .menu_ul_mini {
+    z-index: 100;
+    display: block;
+}
+
+.footer {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+
+    .elementor_top_column {
+        background-color: #02010100;
+        background-image: url(https://actechsmt.com/wp-content/uploads/2022/11/background-footer.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.logo_footer {
+    img {
+        width: 70%;
+    }
+}
+
+.text_address {
+    h3 {
+        font-size: 14pt;
+        font-family: 'Roboto', sans-serif !important;
+        margin-block-start: 0;
+        margin-block-end: .9rem;
+        color: white;
+    }
+
+    p {
+        font-size: 10pt;
+        margin-block-start: 0;
+        margin-block-end: .9rem;
+        font-family: 'Roboto', sans-serif !important;
+        color: white;
+        font-weight: 400;
+        line-height: 20px;
+    }
+}
+.product_footer{
+    margin-top: 6rem;
+    h3{
+        color: #159AFD;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 20px;
+        font-family: 'Roboto', sans-serif !important;
+        margin: 2rem 0;
+    }
+}
+.text_address2 {
+    p {
+        font-size: 10pt;
+        margin-block-start: 0;
+        margin-block-end: .9rem;
+        font-family: 'Roboto', sans-serif !important;
+        color: white;
+        font-weight: 400;
+        line-height: 20px;
+        min-height: 40px;
+    }
+}
+.information_footer{
+    margin-top: 6rem;
+    h3{
+        color: #159AFD;
+    }
+}
+.email_footer{
+    margin: 1rem 0;
+    input{
+        height: 40px;
+        width: 70%;
+    }
+    button{
+        width: 30%;
+        height: 40px;
+    }
+}
+.in_footer{
+    p{
+        color: white;
+        margin: 0.3rem 0;
+    }
+}
+.main{
+    margin-top: 80px;
+}
+
+.menuToggle {
+    display: none;
+}
+
+.icon_zalo_p{
+    .button_contact{
+        position: relative;
+        margin-top: -5px;
+    }
+}
+
+.phone_vr{
+    position: relative;
+    visibility: visible;
+    background-color: transparent;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transition: visibility .5s;
+    left: 0;
+    bottom: 0;
+    display: block;
+}
+.phone_vr_circle_fill{
+    box-shadow: 0 0 0 0 #2196F3;
+    background-color: rgba(33, 150, 243, .7);
+    width: 65px;
+    height: 65px;
+    top: 12px;
+    left: 12px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    animation: zoom 1.3s infinite;
+    transition: all .5s;
+    transform-origin: 50% 50%;
+}
+.phone_vr_img_circle{
+    background-color: #2196F3;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    animation: phone-vr-circle-fill 1s infinite ease-in-out;
+    a{
+        text-decoration: underline;
+        color: #FFFFFF;
+        font-weight: 700;
+        display: block;
+        line-height: 37px;
+        font-family: 'Roboto', sans-serif !important;
+        background-color: transparent;
+        img{
+            max-height: 25px;
+            max-width: 27px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            border-style: none;
+            height: auto;
+            vertical-align: middle;
+        }
+    }
+    a:link, a:visited {
+        transition: all .31s ease;
+    }
+}
+
+.phone_vr_circle_fill2{
+    box-shadow: 0 0 0 0 #f15959c7;
+    background-color: #f15959c7;
+    width: 65px;
+    height: 65px;
+    top: 12px;
+    left: 12px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    animation: zoom 1.3s infinite;
+    transition: all .5s;
+    transform-origin: 50% 50%;
+}
+
+.phone_vr_img_circle2{
+    background-color: #dd3333;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    animation: phone-vr-circle-fill 1s infinite ease-in-out;
+    a{
+        text-decoration: underline;
+        color: #FFFFFF;
+        font-weight: 700;
+        display: block;
+        line-height: 37px;
+        font-family: 'Roboto', sans-serif !important;
+        background-color: transparent;
+        img{
+            max-height: 25px;
+            max-width: 27px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            border-style: none;
+            height: auto;
+            vertical-align: middle;
+        }
+    }
+    a:link, a:visited {
+        transition: all .31s ease;
+    }
+}
+
+.icon_zalo_p{
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    z-index: 100;
+}
+
+.underlined{
+    border: 1px solid#FFFFFF1A;
+    width: 78%;
+    margin: 0 12%;
+}
+.text_end{
+    text-align: center;
+    p{
+        margin: 2rem 0;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+
+@keyframes phone-vr-circle-fill {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20%{
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30%{
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40%{
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50%{
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    100%{
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+    .menuToggle {
+      display: block;
+    }
+    .header{
+        width: auto;
+    }
+  
+    .menu_nav {
+        display: none;
+    }
+    .menu_nav.active {
+      display: block;
+      .menu_li{
+        display: block;
+        width: 100%;
+        margin: 0;
+      }
+    }
+
+    .menu_wrapper {
+        width: auto;
+    }
+    
+    .menu_nav {
+        background-color: #f4f4f4; /* Màu nền của menu */
+        padding: 10px; /* Khoảng cách bên trong menu */
+        position: absolute;
+        top: 30px;
+        right: 20px;
+        z-index: 100;
+    }
+    
+    .menu_ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+
+    }
+    
+    .menu_li {
+        padding: 8px 0;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+    .menu_li:hover {
+        background-color: #ddd; /* Màu nền khi di chuột vào */
+    }
+    
+    .menu_ul_mini {
+        display: none;
+    }
+    
+    .menu_li:hover .menu_ul_mini {
+        display: block; /* Hiển thị menu con khi di chuột vào menu cha */
+    }
+    .text_address2{
+        p{
+           min-height: auto;
+        }
+    }
+    .product_footer{
+        margin-top: 1rem;
+    }
+    .information_footer{
+        margin-top: 2rem;
+    }
+  }
